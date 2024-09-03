@@ -22,6 +22,6 @@ def remove_duplicates(input_file, output_file):
 
 
 if __name__ == "__main__":
-    input_file = 'fixed_obama_speech_output.json'
-    output_file = 'unique_obama_speech_output.json'
+    input_file = 'fixed_truman_speech.json'
+    output_file = 'unique_truman_speech.json'
     remove_duplicates(input_file, output_file)

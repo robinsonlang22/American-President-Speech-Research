@@ -11,7 +11,7 @@ def fix_json_format(input_file, output_file):
         f.write(fixed_content)
 
 if __name__ == "__main__":
-    input_file = 'obama_speech_output.json'
-    output_file = 'fixed_obama_speech_output.json'
+    input_file = 'truman_speech.json'
+    output_file = 'fixed_truman_speech.json'
     fix_json_format(input_file, output_file)
 

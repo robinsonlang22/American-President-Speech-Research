@@ -20,7 +20,7 @@ class JsonWriterPipeline:
 
     def open_spider(self, spider):
         # 根据爬虫的名称动态生成文件名
-        self.file = open('obama_speech_output.json', 'w', encoding='utf-8')
+        self.file = open('truman_speech.json', 'w', encoding='utf-8')
         self.file.write('[')
 
     def close_spider(self, spider):
