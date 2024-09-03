@@ -17,11 +17,12 @@ def remove_duplicates(input_file, output_file):
         json.dump(unique_data, f, ensure_ascii=False, indent=4)
 
     duplicate_count = len(data) - len(unique_data)
-    print(f"重复了 {duplicate_count} 条")
+    print(f"Removed {duplicate_count} duplicates")
         
 
 
 if __name__ == "__main__":
+    # 需要修改文件名
     input_file = 'fixed_truman_speech.json'
     output_file = 'unique_truman_speech.json'
     remove_duplicates(input_file, output_file)

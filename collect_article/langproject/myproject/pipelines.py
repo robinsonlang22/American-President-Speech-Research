@@ -19,7 +19,7 @@ import json
 class JsonWriterPipeline:
 
     def open_spider(self, spider):
-        # 根据爬虫的名称动态生成文件名
+        # 需要修改输出文件名
         self.file = open('truman_speech.json', 'w', encoding='utf-8')
         self.file.write('[')
 
