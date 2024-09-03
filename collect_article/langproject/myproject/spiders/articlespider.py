@@ -21,7 +21,7 @@ class ArticlespiderSpider(scrapy.Spider):
 
     def parse_article(self, response):
         title = response.css('h1::text').get()
-        president = response.css('div.field-name-field-docs-person a::text').get()  # 爬取总统名
+        president = response.css('a[href*="/people/president/"]::text').get()  # 爬取总统名
         content = ' '.join(response.css('div.field-docs-content p::text').getall()).strip()
         date = response.css('span.date-display-single::text').get()
         
