@@ -11,3 +11,23 @@ from itemadapter import ItemAdapter
 class MyprojectPipeline:
     def process_item(self, item, spider):
         return item
+
+
+import json
+
+
+class JsonWriterPipeline:
+
+    def open_spider(self, spider):
+        self.file = open('filtered_output2.json', 'w', encoding='utf-8')
+        self.file.write('[')
+
+    def close_spider(self, spider):
+        self.file.write(']')
+        self.file.close()
+
+    def process_item(self, item, spider):
+        line = json.dumps(item, ensure_ascii=False) + ",\n"
+        self.file.write(line)
+        return item
+
