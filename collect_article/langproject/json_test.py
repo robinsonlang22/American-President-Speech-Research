@@ -1,7 +1,7 @@
 import json
 
 def test_read_fixed_obama_speech():
-    input_file = '../final_json/43_walkerbush_speech.json'
+    input_file = '../final_json/47_vicepresident_biden_speech.json'
     
     try:
         with open(input_file, 'r', encoding='utf-8') as f:

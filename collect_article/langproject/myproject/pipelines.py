@@ -20,7 +20,7 @@ class JsonWriterPipeline:
 
     def open_spider(self, spider):
         # modify the output file name
-        self.file = open('walkerbush_speech.json', 'w', encoding='utf-8')
+        self.file = open('vicepresident_biden_speech.json', 'w', encoding='utf-8')
         self.file.write('[')
 
     def close_spider(self, spider):

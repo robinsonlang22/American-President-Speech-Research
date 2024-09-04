@@ -22,6 +22,6 @@ def remove_duplicates(input_file, output_file):
               
 if __name__ == "__main__":
     # modify the file name
-    input_file = 'walkerbush_speech.json'
-    output_file = '43_walkerbush_speech.json'
+    input_file = 'vicepresident_biden_speech.json'
+    output_file = '47_vicepresident_biden_speech.json'
     remove_duplicates(input_file, output_file)
