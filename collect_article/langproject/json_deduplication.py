@@ -18,9 +18,10 @@ def remove_duplicates(input_file, output_file):
 
     duplicate_count = len(data) - len(unique_data)
     print(f"Removed {duplicate_count} duplicates")
+    print(f"Total {len(unique_data)} unique items")
               
 if __name__ == "__main__":
     # 需要修改文件名
-    input_file = 'fixed_truman_speech.json'
-    output_file = 'unique_truman_speech.json'
+    input_file = 'fixed_cliton_speech.json'
+    output_file = '42_cliton_speech.json'
     remove_duplicates(input_file, output_file)
