@@ -21,7 +21,7 @@ def remove_duplicates(input_file, output_file):
     print(f"Total {len(unique_data)} unique items")
               
 if __name__ == "__main__":
-    # 需要修改文件名
-    input_file = 'herbertbush_speech.json'
-    output_file = '41_herbertbush_speech.json'
+    # modify the file name
+    input_file = 'carter_speech.json'
+    output_file = '39_carter_speech.json'
     remove_duplicates(input_file, output_file)

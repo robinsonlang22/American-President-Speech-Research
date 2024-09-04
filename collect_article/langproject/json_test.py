@@ -1,14 +1,14 @@
 import json
 
 def test_read_fixed_obama_speech():
-    input_file = '../final_json/41_herbertbush_speech.json'
+    input_file = '../final_json/39_carter_speech.json'
     
     try:
         with open(input_file, 'r', encoding='utf-8') as f:
             data = json.load(f)
-        print("读取成功")
+        print("read success")
     except Exception as e:
-        print(f"读取失败: {e}")
+        print(f"read failed: {e}")
 
 if __name__ == "__main__":
     test_read_fixed_obama_speech()

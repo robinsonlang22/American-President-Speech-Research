@@ -5,10 +5,10 @@ import logging
 
 class ArticlespiderSpider(scrapy.Spider):
     # name the crawler
-    name = "herbertbushspider"
+    name = "carterspider"
     allowed_domains = ["www.presidency.ucsb.edu"]
     # set the start url
-    start_urls = ["https://www.presidency.ucsb.edu/advanced-search?field-keywords=China&field-keywords2=&field-keywords3=&from%5Bdate%5D=&to%5Bdate%5D=&person2=200297&items_per_page=25"]
+    start_urls = ["https://www.presidency.ucsb.edu/advanced-search?field-keywords=China&field-keywords2=&field-keywords3=&from%5Bdate%5D=&to%5Bdate%5D=&person2=200295&items_per_page=25"]
 
     def parse(self, response):
         # extract the article link in the current page
@@ -42,11 +42,7 @@ class ArticlespiderSpider(scrapy.Spider):
                 'sentence': sentence,
             }
 
-            #修改输出文件
-            # with open('cliton_speech.json', 'a', encoding='utf-8') as f:
-            #     json.dump(data, f, ensure_ascii=False, indent=4)
-            #     f.write('\n')
-
+            # trasfer data to pipelines
             yield data
 
     def close(self, reason):
