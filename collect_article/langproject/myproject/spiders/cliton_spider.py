@@ -5,7 +5,7 @@ import logging
 
 class ArticlespiderSpider(scrapy.Spider):
     # 需要修改爬虫名称
-    name = "clitonspider"
+    name = "clintonspider"
     allowed_domains = ["www.presidency.ucsb.edu"]
     # 需要修改起始url
     start_urls = ["https://www.presidency.ucsb.edu/advanced-search?field-keywords=China&field-keywords2=&field-keywords3=&from%5Bdate%5D=&to%5Bdate%5D=&person2=200298&items_per_page=25"]

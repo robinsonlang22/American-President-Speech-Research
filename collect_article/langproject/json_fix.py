@@ -12,7 +12,7 @@ def fix_json_format(input_file, output_file):
 
 if __name__ == "__main__":
     # 需要修改文件名
-    input_file = 'cliton_speech.json'
-    output_file = 'fixed_cliton_speech.json'
+    input_file = 'clinton_speech.json'
+    output_file = 'fixed_clinton_speech.json'
     fix_json_format(input_file, output_file)
 
