@@ -5,10 +5,10 @@ import logging
 
 class ArticlespiderSpider(scrapy.Spider):
     # name the crawler
-    name = "nixonspider"
+    name = "presidentname_spider"
     allowed_domains = ["www.presidency.ucsb.edu"]
     # set the start url
-    start_urls = ["https://www.presidency.ucsb.edu/advanced-search?field-keywords=China&field-keywords2=&field-keywords3=&from%5Bdate%5D=01-01-1968&to%5Bdate%5D=&person2=200293&items_per_page=25"]
+    start_urls = ["https://www.presidency.ucsb.edu/example"]
 
     def parse(self, response):
         # extract the article link in the current page
