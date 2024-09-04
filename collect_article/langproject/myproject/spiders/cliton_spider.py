@@ -42,9 +42,10 @@ class ArticlespiderSpider(scrapy.Spider):
                 'sentence': sentence,
             }
 
-            with open('truman_speech.json', 'a', encoding='utf-8') as f:
-                json.dump(data, f, ensure_ascii=False, indent=4)
-                f.write('\n')
+            #修改输出文件
+            # with open('cliton_speech.json', 'a', encoding='utf-8') as f:
+            #     json.dump(data, f, ensure_ascii=False, indent=4)
+            #     f.write('\n')
 
             yield data
 
