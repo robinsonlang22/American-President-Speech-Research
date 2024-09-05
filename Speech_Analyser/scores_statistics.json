@@ -88,14 +88,5 @@
         "average_neutral_score": 0.382,
         "median_neutral_score": 0.357,
         "std_dev_neutral_score": 0.208
-    },
-    {
-        "president_name": "vicepresident_biden",
-        "average_subjective_score": 0.665,
-        "median_subjective_score": 0.707,
-        "std_dev_subjective_score": 0.214,
-        "average_neutral_score": 0.326,
-        "median_neutral_score": 0.29,
-        "std_dev_neutral_score": 0.202
     }
 ]
