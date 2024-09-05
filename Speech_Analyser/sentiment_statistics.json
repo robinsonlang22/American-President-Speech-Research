@@ -1,0 +1,62 @@
+[
+    {
+        "president_name": "nixon",
+        "average_sentiment_score": 3.200251889168766,
+        "median_sentiment_score": 3.0,
+        "std_dev_sentiment_score": 1.4306645113752288
+    },
+    {
+        "president_name": "ford",
+        "average_sentiment_score": 3.2966507177033493,
+        "median_sentiment_score": 4.0,
+        "std_dev_sentiment_score": 1.6450704315900366
+    },
+    {
+        "president_name": "carter",
+        "average_sentiment_score": 3.4297235023041477,
+        "median_sentiment_score": 4.0,
+        "std_dev_sentiment_score": 1.5460344446984955
+    },
+    {
+        "president_name": "reagan",
+        "average_sentiment_score": 3.7226753670473083,
+        "median_sentiment_score": 4.0,
+        "std_dev_sentiment_score": 1.426191046507701
+    },
+    {
+        "president_name": "herbertbush",
+        "average_sentiment_score": 3.1586368977673325,
+        "median_sentiment_score": 3.0,
+        "std_dev_sentiment_score": 1.5321022395346486
+    },
+    {
+        "president_name": "clinton",
+        "average_sentiment_score": 3.0001667778519012,
+        "median_sentiment_score": 3.0,
+        "std_dev_sentiment_score": 1.5315777679166265
+    },
+    {
+        "president_name": "walkerbush",
+        "average_sentiment_score": 3.088276246170983,
+        "median_sentiment_score": 3.0,
+        "std_dev_sentiment_score": 1.460804761550415
+    },
+    {
+        "president_name": "obama",
+        "average_sentiment_score": 3.2649719948298146,
+        "median_sentiment_score": 4.0,
+        "std_dev_sentiment_score": 1.434887053855755
+    },
+    {
+        "president_name": "trump",
+        "average_sentiment_score": 2.6631905648665426,
+        "median_sentiment_score": 2.0,
+        "std_dev_sentiment_score": 1.6083748849808728
+    },
+    {
+        "president_name": "biden",
+        "average_sentiment_score": 2.850372003306696,
+        "median_sentiment_score": 3.0,
+        "std_dev_sentiment_score": 1.4729818030317616
+    }
+]
