@@ -5,10 +5,10 @@ import logging
 
 class ArticlespiderSpider(scrapy.Spider):
     # name the crawler
-    name = "presidentname_spider"
+    name = "canada_spider"
     allowed_domains = ["www.presidency.ucsb.edu"]
     # set the start url
-    start_urls = ["https://www.presidency.ucsb.edu/example"]
+    start_urls = ["https://www.presidency.ucsb.edu/advanced-search?field-keywords=Canada&field-keywords2=&field-keywords3=&from%5Bdate%5D=01-20-1969&to%5Bdate%5D=&person2=&items_per_page=25"]
 
     def parse(self, response):
         # extract the article link in the current page
@@ -31,10 +31,10 @@ class ArticlespiderSpider(scrapy.Spider):
         # format the date to standard format
         date = datetime.strptime(date, '%B %d, %Y').strftime('%Y-%m-%d') if date else None
 
-        # filter the sentences include "China"
-        china_sentences = [sentence for sentence in content.split('. ') if 'China' in sentence]
+        # filter the sentences include "Canada"
+        canada_sentences = [sentence for sentence in content.split('. ') if 'Canada' in sentence]
 
-        for sentence in china_sentences:
+        for sentence in canada_sentences:
             data = {
                 'title': title,
                 'president': president,
