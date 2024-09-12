@@ -89,4 +89,188 @@
         "median_neutral_score": 0.357,
         "std_dev_neutral_score": 0.208
     }
-]
+]{
+    "president_name": "nixon",
+    "average_subjective_score": 0.638,
+    "median_subjective_score": 0.655,
+    "std_dev_subjective_score": 0.2,
+    "average_neutral_score": 0.354,
+    "median_neutral_score": 0.343,
+    "std_dev_neutral_score": 0.191
+}{
+    "president_name": "nixon",
+    "average_subjective_score": 0.638,
+    "median_subjective_score": 0.655,
+    "std_dev_subjective_score": 0.2,
+    "average_neutral_score": 0.354,
+    "median_neutral_score": 0.343,
+    "std_dev_neutral_score": 0.191
+}{
+    "president_name": "trump",
+    "average_subjective_score": 0.694,
+    "median_subjective_score": 0.724,
+    "std_dev_subjective_score": 0.208,
+    "average_neutral_score": 0.301,
+    "median_neutral_score": 0.274,
+    "std_dev_neutral_score": 0.202
+}{
+    "president_name": "nixon",
+    "average_subjective_score": 0.638,
+    "median_subjective_score": 0.655,
+    "std_dev_subjective_score": 0.2,
+    "average_neutral_score": 0.354,
+    "median_neutral_score": 0.343,
+    "std_dev_neutral_score": 0.191
+}{
+    "president_name": "trump",
+    "average_subjective_score": 0.694,
+    "median_subjective_score": 0.724,
+    "std_dev_subjective_score": 0.208,
+    "average_neutral_score": 0.301,
+    "median_neutral_score": 0.274,
+    "std_dev_neutral_score": 0.202
+}{
+    "president_name": "biden",
+    "average_subjective_score": 0.609,
+    "median_subjective_score": 0.639,
+    "std_dev_subjective_score": 0.218,
+    "average_neutral_score": 0.382,
+    "median_neutral_score": 0.357,
+    "std_dev_neutral_score": 0.208
+}{
+    "president_name": "nixon",
+    "average_subjective_score": 0.638,
+    "median_subjective_score": 0.655,
+    "std_dev_subjective_score": 0.2,
+    "average_neutral_score": 0.354,
+    "median_neutral_score": 0.343,
+    "std_dev_neutral_score": 0.191
+}{
+    "president_name": "ford",
+    "average_subjective_score": 0.642,
+    "median_subjective_score": 0.688,
+    "std_dev_subjective_score": 0.235,
+    "average_neutral_score": 0.353,
+    "median_neutral_score": 0.304,
+    "std_dev_neutral_score": 0.23
+}{
+    "president_name": "carter",
+    "average_subjective_score": 0.614,
+    "median_subjective_score": 0.668,
+    "std_dev_subjective_score": 0.25,
+    "average_neutral_score": 0.368,
+    "median_neutral_score": 0.323,
+    "std_dev_neutral_score": 0.232
+}{
+    "president_name": "reagan",
+    "average_subjective_score": 0.615,
+    "median_subjective_score": 0.653,
+    "std_dev_subjective_score": 0.265,
+    "average_neutral_score": 0.361,
+    "median_neutral_score": 0.327,
+    "std_dev_neutral_score": 0.243
+}{
+    "president_name": "herbertbush",
+    "average_subjective_score": 0.58,
+    "median_subjective_score": 0.602,
+    "std_dev_subjective_score": 0.236,
+    "average_neutral_score": 0.408,
+    "median_neutral_score": 0.385,
+    "std_dev_neutral_score": 0.224
+}{
+    "president_name": "clinton",
+    "average_subjective_score": 0.621,
+    "median_subjective_score": 0.642,
+    "std_dev_subjective_score": 0.209,
+    "average_neutral_score": 0.372,
+    "median_neutral_score": 0.354,
+    "std_dev_neutral_score": 0.201
+}{
+    "president_name": "walkerbush",
+    "average_subjective_score": 0.614,
+    "median_subjective_score": 0.632,
+    "std_dev_subjective_score": 0.205,
+    "average_neutral_score": 0.38,
+    "median_neutral_score": 0.365,
+    "std_dev_neutral_score": 0.198
+}{
+    "president_name": "obama",
+    "average_subjective_score": 0.634,
+    "median_subjective_score": 0.66,
+    "std_dev_subjective_score": 0.206,
+    "average_neutral_score": 0.358,
+    "median_neutral_score": 0.337,
+    "std_dev_neutral_score": 0.196
+}{
+    "president_name": "trump",
+    "average_subjective_score": 0.694,
+    "median_subjective_score": 0.724,
+    "std_dev_subjective_score": 0.208,
+    "average_neutral_score": 0.301,
+    "median_neutral_score": 0.274,
+    "std_dev_neutral_score": 0.202
+}{
+    "president_name": "biden",
+    "average_subjective_score": 0.609,
+    "median_subjective_score": 0.639,
+    "std_dev_subjective_score": 0.218,
+    "average_neutral_score": 0.382,
+    "median_neutral_score": 0.357,
+    "std_dev_neutral_score": 0.208
+}{
+    "president_name": "reagan",
+    "average_subjective_score": 0.615,
+    "median_subjective_score": 0.653,
+    "std_dev_subjective_score": 0.265,
+    "average_neutral_score": 0.361,
+    "median_neutral_score": 0.327,
+    "std_dev_neutral_score": 0.243
+}{
+    "president_name": "herbertbush",
+    "average_subjective_score": 0.58,
+    "median_subjective_score": 0.602,
+    "std_dev_subjective_score": 0.236,
+    "average_neutral_score": 0.408,
+    "median_neutral_score": 0.385,
+    "std_dev_neutral_score": 0.224
+}{
+    "president_name": "clinton",
+    "average_subjective_score": 0.621,
+    "median_subjective_score": 0.642,
+    "std_dev_subjective_score": 0.209,
+    "average_neutral_score": 0.372,
+    "median_neutral_score": 0.354,
+    "std_dev_neutral_score": 0.201
+}{
+    "president_name": "walkerbush",
+    "average_subjective_score": 0.614,
+    "median_subjective_score": 0.632,
+    "std_dev_subjective_score": 0.205,
+    "average_neutral_score": 0.38,
+    "median_neutral_score": 0.365,
+    "std_dev_neutral_score": 0.198
+}{
+    "president_name": "obama",
+    "average_subjective_score": 0.634,
+    "median_subjective_score": 0.66,
+    "std_dev_subjective_score": 0.206,
+    "average_neutral_score": 0.358,
+    "median_neutral_score": 0.337,
+    "std_dev_neutral_score": 0.196
+}{
+    "president_name": "trump",
+    "average_subjective_score": 0.694,
+    "median_subjective_score": 0.724,
+    "std_dev_subjective_score": 0.208,
+    "average_neutral_score": 0.301,
+    "median_neutral_score": 0.274,
+    "std_dev_neutral_score": 0.202
+}{
+    "president_name": "biden",
+    "average_subjective_score": 0.609,
+    "median_subjective_score": 0.639,
+    "std_dev_subjective_score": 0.218,
+    "average_neutral_score": 0.382,
+    "median_neutral_score": 0.357,
+    "std_dev_neutral_score": 0.208
+}
